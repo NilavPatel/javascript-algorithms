@@ -6,3 +6,4 @@
 - Get fibonacci numbers between 1 to 100
 - Check string is Palindrome or not
 - Print Star
+- Celebrity problem
