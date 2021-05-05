@@ -7,3 +7,4 @@
 - Check string is Palindrome or not
 - Print Star
 - Celebrity problem
+- Reverse array
