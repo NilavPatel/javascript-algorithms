@@ -1,14 +1,15 @@
 // Palindrom string means which will be read same from left to right and right to left
 function isPalindrome(str) {
-  if (str.length % 2 != 0) {
-    return false;
-  }
   var isPal = true;
-  for (var i = 0; i < str.length / 2; i++) {
-    if (str[i] !== str[str.length - 1 - i]) {
+  var x = 0;
+  var y = str.length - 1;
+  while (x != y && x < y) {
+    if (str[x] != str[y]) {
       isPal = false;
       break;
     }
+    x++;
+    y--;
   }
   return isPal;
 }
